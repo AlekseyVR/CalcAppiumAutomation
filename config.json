@@ -1,0 +1,10 @@
+{
+  "platformName": "Android",
+  "automationName": "uiautomator2",
+  "deviceName": "emulator-5554",
+  "appPackage": "com.google.android.calculator",
+  "appActivity": "Calculator",
+  "noReset": true,
+  "language": "en",
+  "locale": "US"
+}
