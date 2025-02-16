@@ -24,7 +24,7 @@ def app(request):
     # browser = request.config.getoption("--browser")
     # config = load_config(request.config.getoption("--target"))
 
-    config = load_config("C:\MyProjects\TestProject\config.json")
+    config = load_config("C:\\MyProjects\\TestProject\\config.json")
     app_fixture = Application(config=config)
     app_fixture.set_appium_driver()
     if app_fixture is None: # if fixture is None or not fixture.is_valid():
