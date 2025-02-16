@@ -1,2 +1,6 @@
 # Default ignored files
+/.idea
 /data/install
+/.venv
+/.pytest_cache
+/__pycache__
